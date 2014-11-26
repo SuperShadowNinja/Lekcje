@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class math{
     public function dodawanie($a,$b){
         return $a+$b;
@@ -13,5 +13,7 @@ class math{
         return $a/$b;
     }
 }
+$example= new math();
+echo $example->dzielenie($example->dodawanie(5, 11), $example->odejmowanie(3, 1));
 
 ?>
